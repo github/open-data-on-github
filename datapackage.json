@@ -1,0 +1,98 @@
+{
+  "resources": [
+    {
+      "name": "data_counts",
+      "type": "table",
+      "path": "data/data_counts.parquet",
+      "scheme": "file",
+      "format": "parquet",
+      "mediatype": "appliction/parquet",
+      "schema": {
+        "fields": [
+          {
+            "name": "pseudo_user_id",
+            "type": "integer"
+          },
+          {
+            "name": "extension",
+            "type": "string"
+          },
+          {
+            "name": "owner_type",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "count_files",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "license_counts",
+      "type": "table",
+      "path": "data/license_counts.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "extension",
+            "type": "string"
+          },
+          {
+            "name": "spdx_license",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "count_files",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "open_data_websites",
+      "type": "table",
+      "path": "data/open_data_websites.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "source",
+            "type": "string"
+          },
+          {
+            "name": "vertical",
+            "type": "string"
+          },
+          {
+            "name": "datasets",
+            "type": "integer"
+          },
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "observed",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

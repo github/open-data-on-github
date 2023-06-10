@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+authors:
+- family-names: "Cintron Roman"
+  given-names: "Anthony"
+- family-names: Xu
+  given-names: Kevin
+- family-names: Smith
+  given-names: Arfon
+- family-names: Torres
+  given-names: Jehu
+- family-names: Robinson
+  given-names: Caleb
+- family-names: "Lavista Ferres"
+  given-names: "Juan M."
+contact:
+- affilation: "GitHub"
+  email: policy@github.com
+title: "Open Data on GitHub Dataset"
+version: 1.0.0
+date-released: 2023-06-12
+license: CDLA-Permissive-2.0
+url: https://github.com/github/open-data-on-github
+type: dataset
+repository: "https://github.com/github/open-data-on-github"
+keywords: 
+- "open source"
+- "open data"
+- dataset
+- datasets
+- "open datasets"
