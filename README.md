@@ -1,6 +1,6 @@
 ## Open Data on GitHub Dataset
 
-This repo contains the dataset files for the Open Data on GitHub paper.
+This repo contains the dataset files for the [Open Data on GitHub paper](https://arxiv.org/abs/2306.06191).
 
 ## Background
 
